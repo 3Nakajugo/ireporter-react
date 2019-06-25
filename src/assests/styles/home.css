@@ -1,0 +1,128 @@
+.intro{
+    float: left;
+    width: 80%;
+    height: 50%;
+    padding: 100px 100px 100px 100px;
+    background: #fbf9f9;
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.521);
+    border-radius: 4px;
+}
+
+.start-btn{
+    margin-left: 40%;
+}
+
+.start-btn input {
+    border: none;
+    background: rgb(6, 150, 68);
+    border-radius:12px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 3% 5%;
+}
+.start-btn input:hover {
+    background: rgba(61, 155, 101, 0.993);
+}
+
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(197, 60, 60);
+}
+p{
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(3, 3, 3);  
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: #464444d3;
+    }
+    h1{
+        text-align: center;
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgba(151, 10, 10, 0.705);
+    }
+    .intro{
+        float: left;
+        width: 60%;
+        height: 80%;
+        padding: 100px 100px 100px 100px;
+        background: #fbf9f9;
+        margin-top: 2%;
+        margin-left: 2%;
+        margin-bottom: 2%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.521);
+        border-radius: 4px;
+    }
+    
+    p{
+        text-align: auto;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:black; 
+
+    }
+   
+    .start-btn{
+        margin-left: 1%;
+    }
+    .start-btn input {
+        border: 1px solid black;
+        background: rgb(8, 235, 106);
+        border-radius:8px;
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 3% 5%;
+    }
+}
+
+@media only screen and (min-width:600px ) and (max-width:950px) {
+    h1{
+        text-align: center;
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:rgba(151, 10, 10, 0.884);
+    }
+    .intro{
+        /* float: right; */
+        width: 60%;
+        height: 80%;
+        padding: 100px 100px 100px 100px;
+        background: #fbf9f9;
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.521);
+        border-radius: 4px;
+    }
+    
+    p{
+        text-align: auto;
+        font-size: 17px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:black; 
+
+    }
+   
+    .start-btn{
+        margin-left: 20%;
+    }
+    .start-btn input {
+        border: 1px solid black;
+        background: rgb(8, 235, 106);
+        border-radius:8px;
+        color: #fff;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 3% 5%;
+    }
+}
