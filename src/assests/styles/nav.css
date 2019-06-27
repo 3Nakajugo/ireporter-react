@@ -1,0 +1,13 @@
+nav {
+    background-color: #333333;
+}
+.nav-item{
+    color: rgb(253, 253, 253)
+}
+.navlink {
+    color: rgb(253, 253, 253)
+}
+
+.nav-link:hover {
+    color: rgb(173, 170, 170); 
+  }
