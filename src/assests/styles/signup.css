@@ -1,0 +1,26 @@
+button{
+  margin-top: 10%;
+  border: none;
+  background: #27AD60;
+  border-radius:8px;
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  font-size: 20px;
+}
+.card {
+  padding: 30px;
+  margin-top: 10%;
+  margin-left: 3%;
+  margin-right: 3%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.input-field {
+  margin-top: 10%;
+}
+.heading p{
+  color: #1d1d1d;
+  font-size: 20px;
+  text-align: center;
+}

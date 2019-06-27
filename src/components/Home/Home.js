@@ -4,7 +4,7 @@ import '../../assests/styles/home.css';
 class Home extends Component {
   handleClick = (e) => {
     e.preventDefault();
-    document.location.href = '/';
+    document.location.href = '/signup';
   };
 
   render() {
@@ -13,7 +13,6 @@ class Home extends Component {
         <div>
           <h1> iReporter</h1>
           <div className="intro">
-
             <p>
               iReporter is an online platform that enables any/every citizen to
               <br />
@@ -23,12 +22,10 @@ class Home extends Component {
             <div className="index-btn">
               <form>
                 <div className="start-btn">
-                  <input id="but" type="button" value="Get Started" onClick={this.handleClick} />
+                  <input type="button" value="Get Started" onClick={this.handleClick} />
                 </div>
-
               </form>
             </div>
-
           </div>
         </div>
       </div>
