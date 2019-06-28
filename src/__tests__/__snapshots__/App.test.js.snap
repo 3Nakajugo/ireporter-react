@@ -5,5 +5,3 @@ exports[`<App /> it should render the app 1`] = `ShallowWrapper {}`;
 exports[`<App /> it should render the app 2`] = `ShallowWrapper {}`;
 
 exports[`<App /> it should render the app 3`] = `ShallowWrapper {}`;
-
-exports[`<App /> it should render the app 4`] = `ShallowWrapper {}`;
