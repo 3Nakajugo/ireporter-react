@@ -6,13 +6,13 @@ const initialState = {
   signupResponse: {},
 }
 const message = {
-  "data": [
+  data: [
     {
-      "user_name": "consolate"
+      user_name: "consolate"
     }
   ],
-  "message": "user has been created",
-  "status": 201
+  message: "user has been created",
+  status: 201
 }
 
 describe('signup reducer', () => {
@@ -34,7 +34,7 @@ describe('signup reducer', () => {
     });
   });
 
-  it('tests succesful signup', () => {
+  it('tests unsuccesful signup', () => {
     newstate = reducer(initialState,
       {
         type: SIGNUP_FAILURE,

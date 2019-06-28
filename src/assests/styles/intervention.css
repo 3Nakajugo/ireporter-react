@@ -1,0 +1,12 @@
+.card-intervention {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+.card-int {
+    height: 8%;
+    margin: 2px;
+    width: 18rem;
+  }

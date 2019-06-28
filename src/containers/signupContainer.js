@@ -36,11 +36,9 @@ export class SignupContainer extends Component {
     this.setState({ [e.target.name]: e.target.value });
   }
   render(){
-    const { errors } = this.props;
     return (
       <div>
         <SignupComponent
-          errors={errors}
           onChange={this.onChange}
           onSubmit={this.onSubmit}
         />
